@@ -1,6 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 
+  <head>
+    <title>Benton's Coding Quiz</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Benton's 1 Minute Coding Quiz Challenge</h1>
+      </header>
+
+      <nav id='navbar'> 
+        <h2>Time Left: <span class='time'> </span> </h2>
+        <h2>Score: <span id='score'> </span></h2>
+      </nav>
+
+      <div class="card">
+        <div class="card-header">
+          <h2>Question:<span class= 'question'> </span></h2>
+        </div>
+        <div class="card-body">
+          <textarea
+            readonly
+            id="password"
+            placeholder="Scores"
+            aria-label="Generated Password"
+          ></textarea>
+        </div>
+        <div class="card-footer">
+          <button id="start" class="btn">START</button>
+          <button id="choicea" class="btn">HTML</button>
+          <button id="choiceb" class="btn">CSS</button>
+          <button id="choicec" class="btn">JavaScript</button>
+          <button id="choiced" class="btn">APIs</button>
+        </div>
+      </div>
+
+
+    </div>
+    <script src="./script.js"></script>
+  </body>
+
+
+</html>
+
+
+
+
+
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,4 +90,4 @@
 
   <script> src=" script.js"</script>
 </body>
-</html>
+</html> -->
