@@ -34,6 +34,7 @@ var codingQuiz = [{
 
 function next (event) {
     console.log(event)
+
     if (event.target.textContent === codingQuiz[questionIndex].answer){
         scoreEl.textContent = highScore += 50;
         questionIndex ++;
@@ -42,10 +43,6 @@ function next (event) {
     else {
         questionIndex ++;
         questionRender();
-    }
-    if (questionIndex = 4){
-        funtion 
-        
     }
 }
 
